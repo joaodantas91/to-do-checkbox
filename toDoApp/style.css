@@ -16,17 +16,23 @@ main div.container #caixa {
   padding: 2rem;
 }
 
-main div.container #caixa .titulo,
-main div.container #caixa .titulo:focus {
-  width: 100%;
-  height: 3rem;
-  font-size: 2rem;
+main div.container #caixa input[type=text] {
+  width: 90%;
   border: none;
   outline: none;
 }
 
-main div.container #caixa .titulo::placeholder {
+main div.container #caixa .titulo,
+main div.container #caixa .titulo:focus {
+  
+  height: 3rem;
+  font-size: 2rem;
+  
+}
 
+main div.container #caixa .titulo::placeholder,
+main div.container #caixa .checkboxTexto::placeholder {
+  color: gray;
 }
 
 
